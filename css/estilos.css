@@ -1,13 +1,52 @@
+/*reset do css */
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    background-image: url('https://pixabay.com/get/5ee7d1474f50b108f5d08460da2932761c3ddfe7545572_1280.jpg');
+    background-image: url('../imagens/background.jpg');
     background-size:auto 100vh;
     font-family: Arial;
     height: 100vh;
   }
+
+/* Se a tela tiver pelo menos 400px*/
+@media (min-width: 400px) {
+
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Se a tela tiver pelo menos 600px*/
+@media (min-width: 600px) {
+
+  body {
+    font-size: 18px;
+  }
+}
+
+
+  header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
   
   .menu{
     background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
     
+  }
+
+  .menu a {
+    display: block;
+    padding: 10px 20px;
   }
   
   .menu ul {
@@ -34,7 +73,17 @@ body {
     text-align: center; 
   }
   
+.site-title {
+font-size: 4em;
+
+}
+
   .site-subtitle {
     font-style: italic;
     
+  }
+
+  .img-portfolio {
+    height: 180px;
+    width: 180px;
   }
