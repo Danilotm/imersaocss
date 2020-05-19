@@ -8,7 +8,7 @@
 body {
     background-image: url('../imagens/background.jpg');
     background-size:auto 100vh;
-    font-family: Arial;
+    font-family: 'Source Code Pro', monospace;
     height: 100vh;
   }
 
@@ -74,16 +74,38 @@ body {
   }
   
 .site-title {
-font-size: 4em;
+  font-size: 4em;
+  font-family: 'Shadows Into Light', cursive;
 
 }
 
   .site-subtitle {
     font-style: italic;
-    
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.8em; /* espaçamento vertical*/
+  }
+
+  .portfolio {
+    padding: 2em;
+  }
+
+  .portfolio h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: whitesmoke;
+    margin-bottom: 1.5em; /*espaçamento do h2 vertical */
+  }
+
+  .portfolio .grid {
+    display: grid;
+    gap: 1em;
+
+  }
+
+  .portfolio figure {
+    text-align: center;
   }
 
   .img-portfolio {
     height: 180px;
-    width: 180px;
+    width: 300px;
   }
