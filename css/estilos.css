@@ -134,10 +134,13 @@ body {
     object-position: left bottom;
     /*border-radius: 50%;  efeito círculo */;
   }
+  .contato .icons {
+    text-align: center;
+  }
 
   .contato a {
     color: whitesmoke;
-    font-size: 10em;
+    font-size: 4em;
   }
 
   .contato a:hover {
