@@ -79,7 +79,7 @@ body {
     transform: scale(0.2) translateY(50vh);
     /* Mexer com a transparencia */
     opacity: 0;
-    animation: linear 2s animacaoTitulo;
+    animation: linear 2s animacaoTitulo forwards;
   }
 
   /* Criar uma animação */
