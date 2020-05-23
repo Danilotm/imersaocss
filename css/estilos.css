@@ -113,7 +113,10 @@ body {
    /* Definir que apos 880px de largura, utilizar: */
    @media (min-width: 880px) {
     .portfolio .grid {
-      grid-template-columns: 240px 240px 240px;
+      grid-template-columns: repeat(3, 260px);
+      justify-content: center;
+      align-content: center;
+      height: calc(100vh - 4em - 48px - 1.5em);
   
     }
     
@@ -125,5 +128,9 @@ body {
 
   .img-portfolio {
     height: 180px;
-    width: 200px;
+    width: 240px;
+    object-fit: cover; /* resolver imagens distorcidas*/
+    object-position: left bottom;
+    border-radius: 50%; /* efeito círculo */;
   }
+
