@@ -85,14 +85,14 @@ body {
   /* Criar uma animação */
   @keyframes animacaoTitulo {
 
-    0% {
+    from {
       /* Não precisaria colocar pois la em cima ja foi ajustado */
       /* iniciar o site com os titulos pequenos */
       transform: scale(0.2) translateY(50vh);
       /* Mexer com a transparencia */
       opacity: 0;
     }
-    100% {
+    to {
       /* iniciar o site com os titulos pequenos */
       transform: scale(1) translateY(0);
       /* Mexer com a transparencia */
