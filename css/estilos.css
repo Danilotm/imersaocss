@@ -139,3 +139,7 @@ body {
     color: whitesmoke;
     font-size: 10em;
   }
+
+  .contato a:hover {
+    text-decoration: none;
+  }
