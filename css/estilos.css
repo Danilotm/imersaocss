@@ -140,6 +140,13 @@ body {
     object-fit: cover; /* resolver imagens distorcidas*/
     object-position: left bottom;
     /*border-radius: 50%;  efeito círculo */;
+    transition: transform 500ms;
+  }
+
+  .img-portfolio:hover {
+    transform: scale(1.2);
+  }
+
   }
   .contato .icons {
     text-align: center;
