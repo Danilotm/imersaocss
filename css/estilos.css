@@ -47,12 +47,12 @@ body {
   .menu a {
     display: block;
     padding: 10px 20px;
+    transition: background-color 1s, color 1s;
   }
 
   .menu a:hover {
-    background-color: teal;
+    background-color: black;
     color: white;
-    transition: background-color 2s, color 2s;
   }
   
   .menu ul {
@@ -147,6 +147,7 @@ body {
   .contato a {
     color: whitesmoke;
     font-size: 4em;
+    transition: text-shadow: 1s;
   }
 
   .contato a:hover {
