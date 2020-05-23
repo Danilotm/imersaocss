@@ -52,6 +52,7 @@ body {
   .menu a:hover {
     background-color: teal;
     color: white;
+    transition: background-color 2s, color 2s;
   }
   
   .menu ul {
