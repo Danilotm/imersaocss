@@ -36,12 +36,13 @@ body {
     align-items:center;
   }
   
-  .menu{
+  .menu {
     background-color: white;
     position: fixed;
     width: 100vw;
     top: 0;
-    
+    /* Evitar que animaçoes subscrevam o menu */
+    z-index: 1;
   }
 
   .menu a {
