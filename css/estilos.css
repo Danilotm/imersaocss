@@ -48,6 +48,11 @@ body {
     display: block;
     padding: 10px 20px;
   }
+
+  .menu a:hover {
+    background-color: teal;
+    color: white;
+  }
   
   .menu ul {
     display:flex;
