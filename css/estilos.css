@@ -90,7 +90,7 @@ body {
     min-height: 100vh;
   }
 
-  .contato, .portfolio h2 {
+  .contato h2, .portfolio h2 {
     font-family: 'Press Start 2P', cursive;
     color: whitesmoke;
     margin-bottom: 1.5em; /*espaçamento do h2 vertical */
