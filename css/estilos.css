@@ -127,6 +127,16 @@ body {
     min-height: 100vh;
   }
 
+  @media (min-width: 1200px) {
+    .container {
+      /* Definir a largura maxima que o texto pode ir */
+      max-width: 1200px;
+      /* Deixar os items sempre no centro da tela */
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
   .sobre h2,
   .contato h2,
   .portfolio h2 {
@@ -141,6 +151,11 @@ body {
   /* Espaçamento do parágrafo */
   margin-bottom: 1.4em; 
   text-align: justify;
+}
+
+.sobre a {
+
+  color: cyan;
 }
 
   .portfolio .grid {
