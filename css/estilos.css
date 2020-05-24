@@ -135,6 +135,14 @@ body {
     margin-bottom: 1.5em; /*espaçamento do h2 vertical */
   }
 
+.sobre p {
+  color: white;
+  text-indent: 1.4em;
+  /* Espaçamento do parágrafo */
+  margin-bottom: 1.4em; 
+  text-align: justify;
+}
+
   .portfolio .grid {
     display: grid;
     gap: 1em;
