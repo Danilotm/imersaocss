@@ -120,12 +120,16 @@ body {
     line-height: 1.8em; /* espaçamento vertical*/
   }
 
-  .contato, .portfolio {
+  .sobre,
+  .contato,
+  .portfolio {
     padding: 2em;
     min-height: 100vh;
   }
 
-  .contato h2, .portfolio h2 {
+  .sobre h2,
+  .contato h2,
+  .portfolio h2 {
     font-family: 'Press Start 2P', cursive;
     color: whitesmoke;
     margin-bottom: 1.5em; /*espaçamento do h2 vertical */
@@ -192,3 +196,4 @@ body {
     text-shadow: 0px 0px 10px rgba(255,255,255,.5);
     
   }
+
